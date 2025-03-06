@@ -2,8 +2,9 @@
 
 :root{
    --color-primario: #000000;
-   --color-secundario: #f6f6f6;
-   --color-terciario: #22d4fd;
+   --color-secundario: #F6F6F6;
+   --color-terciario: #107361;
+   --color-hover: #1D7373;
    
    --fuente-montserrat: "Montserrat", sans-serif;
    --fuente-krona-one: "Krona One", sans-serif;
@@ -103,7 +104,7 @@ body {
 }
 
 .presentacion__enlaces__link:hover {
-    background-color: var(--color-primario);
+    background-color: var(--color-hover);
 }
 
 .footer {
